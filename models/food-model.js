@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 const foodSchema = new Schema({
   name: { type: String },
+  quantity {type:String},
   nutrition: {
     calories: { type: String },
     protein: { type: String },
