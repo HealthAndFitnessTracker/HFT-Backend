@@ -11,7 +11,6 @@ const userSchema = new Schema({
   email: { type: String },
   phoneNumber: { type: String },
   password: { type: String },
-  Measurements: [{ type: mongoose.Types.ObjectId, ref: "Measurements" }],
   Goals: { type: mongoose.Types.ObjectId, ref: "Goals" },
   Log: { type: mongoose.Types.ObjectId, ref: "Log" },
 });

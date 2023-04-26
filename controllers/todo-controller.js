@@ -10,7 +10,7 @@ const getUserById = userController.getUserById;
 const getCoordsForAddress = require("../util/location");
 //------------------Models------------------------------
 const HttpError = require("../models/http-error");
-const ToDoItem = require("../models/toDoItem-model");
+const ToDoItem = require("../models/goals-model");
 
 //-----------------------HelperFunctions-----------------------
 const getItemById = async (tid) => {
