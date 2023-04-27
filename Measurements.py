@@ -19,9 +19,30 @@ class Measurements():
         self.time = Time
 
 # The value of this def is two fold. Its for initially finding what parts you want to change, and then taking a new value and inputing it. 
-    def AddMeasurement(self, value, ):
+    def AddMeasurement(self, value, weightvalue, heightvalue):
         if value == 0:
-            self.weight = value
+            self.weight = weightvalue
+        if value == 1:
+            self.chest = weightvalue
+            self.chest_height = heightvalue
+        if value == 2:
+            self.left_arm = weightvalue
+            self.left_arm_height = heightvalue
+        if value == 3:
+            self.right_arm = weightvalue
+            self.right_arm_height = heightvalue
+        if value == 4:
+            self.stomach = weightvalue
+            self.stomach_height = heightvalue
+        if value == 5:
+            self.hips = weightvalue
+            self.hips_height = heightvalue
+        if value == 6:
+            self.left_thigh = weightvalue
+            self.left_thigh_height = heightvalue
+        if value == 7:
+            self.right_thigh = weightvalue
+            self.right_thigh_height = heightvalue
         
     
     def DeleteMeasurement(self, value):
