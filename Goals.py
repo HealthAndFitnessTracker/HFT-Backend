@@ -5,4 +5,4 @@ class Goals():
         self.Notes = Notes
 
     def SetGoal():
-        
+        def
