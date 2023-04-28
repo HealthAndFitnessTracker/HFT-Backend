@@ -6,5 +6,5 @@ class Goals():
         self.Date = Date
         self.Notes = Notes
 
-    def SetGoal():
-        def
+    def SetGoal(self, value):
+        
